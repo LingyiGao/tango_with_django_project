@@ -10,7 +10,7 @@ def index(request):
     context_dict['categories'] = category_list
 
     context_dict['pages'] = page_list
-    context_dict['extra'] = '?????'
+    
 
     return render(request, 'rango/index.html', context=context_dict)
 
